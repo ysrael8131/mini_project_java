@@ -19,6 +19,7 @@ class QuadrangleTest {
     //function that get 8 points and return a cube
     public List<Quadrangle> cube(Point3D A, Point3D B, Point3D C, Point3D D, Point3D E, Point3D F, Point3D G, Point3D H) {
 
+        
         Quadrangle up = new Quadrangle(A, B, F, E);
         up.setEmmission(new Color(70, 39, 128));
 
